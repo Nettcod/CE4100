@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Switch_Cherry)(type KiCad)(uri ${KIPRJMOD}/Switch_Cherry.pretty)(options "")(descr ""))
+  (lib (name Display_GU-7000)(type KiCad)(uri ${KIPRJMOD}/Display_GU-7000.pretty)(options "")(descr ""))
+  (lib (name Connector_USB-C)(type KiCad)(uri ${KIPRJMOD}/DX07S016JA1R1500.pretty)(options "")(descr ""))
+)
