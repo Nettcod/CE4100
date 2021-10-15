@@ -3235,12 +3235,12 @@ Wire Wire Line
 Wire Wire Line
 	2950 2750 3200 2750
 Wire Wire Line
-	2950 4050 3200 4050
+	2950 4350 3200 4350
 Wire Wire Line
-	2950 3950 3200 3950
-Text Label 3200 4050 0    50   ~ 0
+	2950 4250 3200 4250
+Text Label 3200 4350 0    50   ~ 0
 KNOB2
-Text Label 3200 3950 0    50   ~ 0
+Text Label 3200 4250 0    50   ~ 0
 KNOB1
 Connection ~ 750  7400
 Wire Wire Line
@@ -3454,7 +3454,7 @@ Wire Wire Line
 Wire Wire Line
 	800  4200 950  4200
 Wire Wire Line
-	4850 4750 4850 4700
+	4900 4900 4900 4850
 Wire Notes Line
 	5250 5450 5250 500 
 Wire Notes Line
@@ -3486,56 +3486,52 @@ Wire Wire Line
 Wire Wire Line
 	1450 1550 1750 1550
 Wire Wire Line
-	4850 5000 4850 4950
+	4900 5150 4900 5100
 Wire Wire Line
-	3650 5000 3650 5100
+	3700 5150 3700 5250
 Wire Wire Line
-	3650 4600 3650 4700
+	3700 4750 3700 4850
 Wire Wire Line
-	3250 5000 3650 5000
+	3300 5150 3700 5150
 Wire Wire Line
-	3250 4700 3350 4700
+	3300 4850 3400 4850
 Wire Wire Line
-	3550 4700 3650 4700
+	3600 4850 3700 4850
 Wire Wire Line
-	3250 4950 3250 5000
+	3300 5100 3300 5150
 Wire Wire Line
-	3250 4750 3250 4700
-Connection ~ 3650 5000
-Connection ~ 3650 4700
+	3300 4900 3300 4850
+Connection ~ 3700 5150
+Connection ~ 3700 4850
 Wire Wire Line
-	4850 4700 4450 4700
+	4900 4850 4500 4850
 Wire Wire Line
-	3650 4700 3650 4750
+	3700 4850 3700 4900
 Wire Wire Line
-	3650 4950 3650 5000
+	3700 5100 3700 5150
 Wire Wire Line
-	3650 5000 4050 5000
+	3700 5150 4100 5150
 Wire Wire Line
-	4450 4950 4450 5000
-Connection ~ 4450 5000
+	4500 5100 4500 5150
+Connection ~ 4500 5150
 Wire Wire Line
-	4450 5000 4850 5000
+	4500 5150 4900 5150
 Wire Wire Line
-	4450 4750 4450 4700
-Connection ~ 4450 4700
+	4500 4900 4500 4850
+Connection ~ 4500 4850
 Wire Wire Line
-	4450 4700 4050 4700
+	4500 4850 4100 4850
 Wire Wire Line
-	4050 4750 4050 4700
-Connection ~ 4050 4700
+	4100 4900 4100 4850
+Connection ~ 4100 4850
 Wire Wire Line
-	4050 4700 3650 4700
+	4100 4850 3700 4850
 Wire Wire Line
-	4050 4950 4050 5000
-Connection ~ 4050 5000
+	4100 5100 4100 5150
+Connection ~ 4100 5150
 Wire Wire Line
-	4050 5000 4450 5000
+	4100 5150 4500 5150
 NoConn ~ 2950 3650
-NoConn ~ 2950 4450
-NoConn ~ 2950 4350
-NoConn ~ 2950 4250
-NoConn ~ 2950 4150
 Text Label 3200 3750 0    50   ~ 0
 SBUSY
 Wire Wire Line
@@ -3654,12 +3650,6 @@ Wire Wire Line
 Wire Wire Line
 	7150 3700 7100 3700
 Wire Wire Line
-	8000 4450 8000 4650
-Wire Wire Line
-	8000 4650 8050 4650
-Wire Wire Line
-	8050 4450 8000 4450
-Wire Wire Line
 	7100 2200 7100 2400
 Wire Wire Line
 	7100 2400 7150 2400
@@ -3678,10 +3668,6 @@ Wire Wire Line
 Wire Wire Line
 	8050 1450 8000 1450
 Wire Wire Line
-	8650 4650 8800 4650
-Wire Wire Line
-	8650 4450 8700 4450
-Wire Wire Line
 	7800 3700 7750 3700
 Wire Wire Line
 	7750 3900 7900 3900
@@ -3691,8 +3677,6 @@ Wire Wire Line
 	7800 2950 7800 2600
 Wire Wire Line
 	7800 3700 7800 3350
-Wire Wire Line
-	8700 4450 8700 4100
 Wire Wire Line
 	7900 5000 7750 5000
 Connection ~ 7900 2400
@@ -3707,12 +3691,6 @@ Wire Wire Line
 	7750 2200 7800 2200
 Wire Wire Line
 	7800 2200 7800 1850
-Wire Wire Line
-	10500 4450 10450 4450
-Wire Wire Line
-	10450 4650 10600 4650
-Wire Wire Line
-	10500 4450 10500 4100
 Wire Wire Line
 	10600 5000 10450 5000
 Wire Wire Line
@@ -3778,8 +3756,6 @@ Wire Wire Line
 	8800 1650 8800 2400
 Wire Wire Line
 	8700 2200 8700 1850
-Wire Wire Line
-	8800 3900 8800 4650
 Wire Wire Line
 	8900 1450 8900 1650
 Wire Wire Line
@@ -3855,12 +3831,6 @@ Wire Wire Line
 	9800 1650 9850 1650
 Wire Wire Line
 	9850 1450 9800 1450
-Wire Wire Line
-	9800 4450 9800 4650
-Wire Wire Line
-	9800 4650 9850 4650
-Wire Wire Line
-	9850 4450 9800 4450
 Wire Wire Line
 	9800 2950 9800 3150
 Wire Wire Line
@@ -3946,15 +3916,10 @@ Wire Wire Line
 	9800 3350 9800 3600
 Wire Wire Line
 	9800 3600 9850 3600
-Connection ~ 9600 4100
-Wire Wire Line
-	10600 4000 9800 4000
 Wire Wire Line
 	9800 4000 9800 3800
 Wire Wire Line
 	9800 3800 9850 3800
-Wire Wire Line
-	10600 2500 9800 2500
 Wire Wire Line
 	9800 2500 9800 2300
 Wire Wire Line
@@ -3971,33 +3936,17 @@ Wire Wire Line
 	10450 3700 10850 3700
 Wire Wire Line
 	10450 3600 10800 3600
-Connection ~ 10600 4000
-Wire Wire Line
-	10600 4000 10600 4650
-Wire Wire Line
-	9600 4100 10500 4100
 Connection ~ 10600 3150
-Wire Wire Line
-	10600 3150 10600 4000
-Wire Wire Line
-	10600 1650 10600 2500
-Connection ~ 10600 2500
-Wire Wire Line
-	10600 2500 10600 3150
 Wire Wire Line
 	9600 2600 10500 2600
 Wire Wire Line
 	10800 2100 10800 1950
 Wire Wire Line
 	10800 2300 10800 2450
-Text Label 10850 2200 0    50   ~ 0
-KNOB1
 Wire Wire Line
 	10800 3600 10800 3450
 Wire Wire Line
 	10800 3800 10800 3950
-Text Label 10850 3700 0    50   ~ 0
-KNOB2
 Text Label 5600 1100 2    50   ~ 0
 ROW0
 Text Label 5600 4100 2    50   ~ 0
@@ -4008,11 +3957,6 @@ Text Label 5600 2600 2    50   ~ 0
 ROW2
 Text Label 5600 1850 2    50   ~ 0
 ROW1
-Connection ~ 8700 4100
-Wire Wire Line
-	8700 4100 9600 4100
-Wire Wire Line
-	6900 4100 8700 4100
 Text Label 3200 2850 0    50   ~ 0
 ROW3
 Text Label 3200 2750 0    50   ~ 0
@@ -4068,7 +4012,7 @@ F 3 "" H 10800 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch_Cherry:Cherry_MX_Diode SW24
+L Switch_Cherry:Cherry_MX_Diode_1x2 SW24
 U 1 1 632DE667
 P 10150 4550
 F 0 "SW24" H 10150 4915 50  0000 C CNN
@@ -4076,17 +4020,6 @@ F 1 "Key_Return" H 10150 4824 50  0000 C CNN
 F 2 "Switch_Cherry:Cherry_MX_Generic_1x2" H 10150 4200 50  0001 C CNN
 F 3 "https://www.cherrymx.de/_Resources/Persistent/b7ab2f72bd5686e1e1e759a9f3703536d7fb1e18/EN_CHERRY_MX_RED.pdf" H 10700 4750 50  0001 C CNN
 	1    10150 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch_Cherry:Cherry_MX_Diode SW22
-U 1 1 6331F258
-P 10150 3050
-F 0 "SW22" H 10150 3415 50  0000 C CNN
-F 1 "Key_Plus" H 10150 3324 50  0000 C CNN
-F 2 "Switch_Cherry:Cherry_MX_Generic_1x2" H 10150 2700 50  0001 C CNN
-F 3 "https://www.cherrymx.de/_Resources/Persistent/b7ab2f72bd5686e1e1e759a9f3703536d7fb1e18/EN_CHERRY_MX_RED.pdf" H 10700 3250 50  0001 C CNN
-	1    10150 3050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4178,7 +4111,7 @@ F 3 "https://www.cherrymx.de/_Resources/Persistent/b7ab2f72bd5686e1e1e759a9f3703
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch_Cherry:Cherry_MX_Diode SW11
+L Switch_Cherry:Cherry_MX_Diode_1x2 SW11
 U 1 1 6313F555
 P 8350 4550
 F 0 "SW11" H 8350 4915 50  0000 C CNN
@@ -4299,28 +4232,6 @@ F 3 "https://www.cherrymx.de/_Resources/Persistent/b7ab2f72bd5686e1e1e759a9f3703
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Rotary_Encoder_Switch SW23
-U 1 1 64736CEB
-P 10150 2200
-F 0 "SW23" H 10150 2567 50  0000 C CNN
-F 1 "Rotary_Switch" H 10150 2476 50  0000 C CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 10000 2360 50  0001 C CNN
-F 3 "~" H 10150 2460 50  0001 C CNN
-	1    10150 2200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:Rotary_Encoder_Switch SW25
-U 1 1 647AE74D
-P 10150 3700
-F 0 "SW25" H 10150 4067 50  0000 C CNN
-F 1 "Rotary_Switch" H 10150 3976 50  0000 C CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 10000 3860 50  0001 C CNN
-F 3 "~" H 10150 3960 50  0001 C CNN
-	1    10150 3700
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:VBUS #PWR0119
 U 1 1 61616639
 P 2400 5750
@@ -4356,89 +4267,89 @@ $EndComp
 $Comp
 L Device:LED_Small D2
 U 1 1 6163D502
-P 3250 4850
-F 0 "D2" V 3300 4800 50  0000 R CNN
-F 1 "PWR" V 3200 4800 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3250 4850 50  0001 C CNN
-F 3 "~" V 3250 4850 50  0001 C CNN
-	1    3250 4850
+P 3300 5000
+F 0 "D2" V 3350 4950 50  0000 R CNN
+F 1 "PWR" V 3250 4950 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3300 5000 50  0001 C CNN
+F 3 "~" V 3300 5000 50  0001 C CNN
+	1    3300 5000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:C_Small C7
 U 1 1 615354E0
-P 4850 4850
-F 0 "C7" H 4942 4896 50  0000 L CNN
-F 1 "100nF" H 4942 4805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4850 4850 50  0001 C CNN
-F 3 "~" H 4850 4850 50  0001 C CNN
-	1    4850 4850
+P 4900 5000
+F 0 "C7" H 4992 5046 50  0000 L CNN
+F 1 "100nF" H 4992 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4900 5000 50  0001 C CNN
+F 3 "~" H 4900 5000 50  0001 C CNN
+	1    4900 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C6
 U 1 1 61534077
-P 4450 4850
-F 0 "C6" H 4542 4896 50  0000 L CNN
-F 1 "100nF" H 4542 4805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4450 4850 50  0001 C CNN
-F 3 "~" H 4450 4850 50  0001 C CNN
-	1    4450 4850
+P 4500 5000
+F 0 "C6" H 4592 5046 50  0000 L CNN
+F 1 "100nF" H 4592 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4500 5000 50  0001 C CNN
+F 3 "~" H 4500 5000 50  0001 C CNN
+	1    4500 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C5
 U 1 1 61532AEE
-P 4050 4850
-F 0 "C5" H 4142 4896 50  0000 L CNN
-F 1 "100nF" H 4142 4805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4050 4850 50  0001 C CNN
-F 3 "~" H 4050 4850 50  0001 C CNN
-	1    4050 4850
+P 4100 5000
+F 0 "C5" H 4192 5046 50  0000 L CNN
+F 1 "100nF" H 4192 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4100 5000 50  0001 C CNN
+F 3 "~" H 4100 5000 50  0001 C CNN
+	1    4100 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C4
 U 1 1 615321E9
-P 3650 4850
-F 0 "C4" H 3742 4896 50  0000 L CNN
-F 1 "100nF" H 3742 4805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3650 4850 50  0001 C CNN
-F 3 "~" H 3650 4850 50  0001 C CNN
-	1    3650 4850
+P 3700 5000
+F 0 "C4" H 3792 5046 50  0000 L CNN
+F 1 "100nF" H 3792 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3700 5000 50  0001 C CNN
+F 3 "~" H 3700 5000 50  0001 C CNN
+	1    3700 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0107
 U 1 1 6154B64D
-P 3650 5100
-F 0 "#PWR0107" H 3650 4850 50  0001 C CNN
-F 1 "GND" H 3650 4950 50  0000 C CNN
-F 2 "" H 3650 5100 50  0001 C CNN
-F 3 "" H 3650 5100 50  0001 C CNN
-	1    3650 5100
+P 3700 5250
+F 0 "#PWR0107" H 3700 5000 50  0001 C CNN
+F 1 "GND" H 3700 5100 50  0000 C CNN
+F 2 "" H 3700 5250 50  0001 C CNN
+F 3 "" H 3700 5250 50  0001 C CNN
+	1    3700 5250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small_US R5
 U 1 1 6163C688
-P 3450 4700
-F 0 "R5" V 3250 4700 50  0000 C CNN
-F 1 "470" V 3350 4700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 3450 4700 50  0001 C CNN
-F 3 "~" H 3450 4700 50  0001 C CNN
-	1    3450 4700
+P 3500 4850
+F 0 "R5" V 3300 4850 50  0000 C CNN
+F 1 "470" V 3400 4850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 3500 4850 50  0001 C CNN
+F 3 "~" H 3500 4850 50  0001 C CNN
+	1    3500 4850
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+5V #PWR0104
 U 1 1 616731AB
-P 3650 4600
-F 0 "#PWR0104" H 3650 4450 50  0001 C CNN
-F 1 "+5V" H 3650 4750 50  0000 C CNN
-F 2 "" H 3650 4600 50  0001 C CNN
-F 3 "" H 3650 4600 50  0001 C CNN
-	1    3650 4600
+P 3700 4750
+F 0 "#PWR0104" H 3700 4600 50  0001 C CNN
+F 1 "+5V" H 3700 4900 50  0000 C CNN
+F 2 "" H 3700 4750 50  0001 C CNN
+F 3 "" H 3700 4750 50  0001 C CNN
+	1    3700 4750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4458,7 +4369,7 @@ U 1 1 62286AD3
 P 3550 3250
 F 0 "D4" H 3600 3500 50  0000 C CNN
 F 1 "TXLED" H 3600 3400 50  0000 C CNN
-F 2 "" V 3550 3250 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3550 3250 50  0001 C CNN
 F 3 "~" V 3550 3250 50  0001 C CNN
 	1    3550 3250
 	1    0    0    -1  
@@ -4480,7 +4391,7 @@ U 1 1 62635C40
 P 3550 1550
 F 0 "D3" H 3550 1785 50  0000 C CNN
 F 1 "RXLED" H 3550 1694 50  0000 C CNN
-F 2 "" V 3550 1550 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3550 1550 50  0001 C CNN
 F 3 "~" V 3550 1550 50  0001 C CNN
 	1    3550 1550
 	1    0    0    -1  
@@ -4513,7 +4424,7 @@ U 1 1 6150D3A8
 P 1150 4300
 F 0 "J2" H 1200 4500 50  0000 C CNN
 F 1 "AVR-ISP" H 1200 4100 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 1150 4300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" H 1150 4300 50  0001 C CNN
 F 3 "~" H 1150 4300 50  0001 C CNN
 	1    1150 4300
 	1    0    0    -1  
@@ -4859,21 +4770,9 @@ F 3 "https://www.cherrymx.de/_Resources/Persistent/b7ab2f72bd5686e1e1e759a9f3703
 	1    6550 1550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7900 3900 7900 5000
 Connection ~ 7900 3900
-Wire Wire Line
-	7000 4650 7000 5000
 Connection ~ 7000 4650
-Wire Wire Line
-	8800 4650 8800 5000
-Connection ~ 8800 4650
-Wire Wire Line
-	9700 4650 9700 5000
 Connection ~ 9700 4650
-Wire Wire Line
-	10600 4650 10600 5000
-Connection ~ 10600 4650
 $Comp
 L Device:R_Small_US R9
 U 1 1 6181C3D3
@@ -4939,4 +4838,131 @@ F 3 "~" H 5900 4100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5800 4100 5600 4100
+Connection ~ 9600 4100
+Wire Wire Line
+	9700 4650 9700 5000
+Wire Wire Line
+	7900 3900 7900 5000
+Wire Wire Line
+	7000 4650 7000 5000
+Wire Wire Line
+	8050 4650 8000 4650
+Wire Wire Line
+	8000 4650 8000 4450
+Wire Wire Line
+	8000 4450 8050 4450
+Wire Wire Line
+	8800 3900 8800 4650
+Connection ~ 8700 4100
+Wire Wire Line
+	8700 4100 9600 4100
+Wire Wire Line
+	6900 4100 8700 4100
+Wire Wire Line
+	8650 4450 8700 4450
+Wire Wire Line
+	8700 4100 8700 4450
+Wire Wire Line
+	8800 4650 8650 4650
+Wire Wire Line
+	10450 4650 10600 4650
+Wire Wire Line
+	9600 4100 10500 4100
+Wire Wire Line
+	10500 4450 10450 4450
+Wire Wire Line
+	10500 4100 10500 4450
+$Comp
+L Switch_Cherry:Cherry_MX_Diode_1x2 SW22
+U 1 1 6331F258
+P 10150 3050
+F 0 "SW22" H 10150 3415 50  0000 C CNN
+F 1 "Key_Plus" H 10150 3324 50  0000 C CNN
+F 2 "Switch_Cherry:Cherry_MX_Generic_1x2" H 10150 2700 50  0001 C CNN
+F 3 "https://www.cherrymx.de/_Resources/Persistent/b7ab2f72bd5686e1e1e759a9f3703536d7fb1e18/EN_CHERRY_MX_RED.pdf" H 10700 3250 50  0001 C CNN
+	1    10150 3050
+	1    0    0    -1  
+$EndComp
+Connection ~ 10600 4650
+Wire Wire Line
+	10600 4650 10600 5000
+Connection ~ 8800 4650
+Wire Wire Line
+	8800 4650 8800 5000
+NoConn ~ 2950 3950
+NoConn ~ 2950 4050
+NoConn ~ 2950 4150
+NoConn ~ 2950 4450
+Text Label 10850 2200 0    50   ~ 0
+KNOB2
+Text Label 10850 3700 0    50   ~ 0
+KNOB1
+$Comp
+L Device:Rotary_Encoder_Switch SW23
+U 1 1 64736CEB
+P 10150 3700
+F 0 "SW23" H 10150 4067 50  0000 C CNN
+F 1 "Rotary_Switch" H 10150 3976 50  0000 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 10000 3860 50  0001 C CNN
+F 3 "~" H 10150 3960 50  0001 C CNN
+	1    10150 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch SW25
+U 1 1 647AE74D
+P 10150 2200
+F 0 "SW25" H 10150 2567 50  0000 C CNN
+F 1 "Rotary_Switch" H 10150 2476 50  0000 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 10000 2360 50  0001 C CNN
+F 3 "~" H 10150 2460 50  0001 C CNN
+	1    10150 2200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 61CC1A61
+P 10150 2500
+F 0 "D6" H 10300 2450 50  0000 C CNN
+F 1 "1N4148" H 10350 2550 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10150 2500 50  0001 C CNN
+F 3 "~" V 10150 2500 50  0001 C CNN
+	1    10150 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10600 1650 10600 2500
+Wire Wire Line
+	9800 2500 10050 2500
+Wire Wire Line
+	10250 2500 10600 2500
+Connection ~ 10600 2500
+Wire Wire Line
+	10600 2500 10600 3150
+$Comp
+L Device:D_Small D5
+U 1 1 61D63F48
+P 10150 4000
+F 0 "D5" H 10300 3950 50  0000 C CNN
+F 1 "1N4148" H 10350 4050 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10150 4000 50  0001 C CNN
+F 3 "~" V 10150 4000 50  0001 C CNN
+	1    10150 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10600 3150 10600 4000
+Wire Wire Line
+	9800 4000 10050 4000
+Wire Wire Line
+	10250 4000 10600 4000
+Connection ~ 10600 4000
+Wire Wire Line
+	10600 4000 10600 4650
+Wire Wire Line
+	9850 4650 9800 4650
+Wire Wire Line
+	9800 4650 9800 4450
+Wire Wire Line
+	9800 4450 9850 4450
 $EndSCHEMATC
