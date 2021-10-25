@@ -1,5 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Cherry_MX
+F https://www.cherrymx.de/_Resources/Persistent/b7ab2f72bd5686e1e1e759a9f3703536d7fb1e18/EN_CHERRY_MX_RED.pdf
+$ENDCMP
+#
+$CMP Cherry_MX_1x2
+F https://www.cherrymx.de/_Resources/Persistent/b7ab2f72bd5686e1e1e759a9f3703536d7fb1e18/EN_CHERRY_MX_RED.pdf
+$ENDCMP
+#
 $CMP Cherry_MX_Diode
 F https://www.cherrymx.de/_Resources/Persistent/b7ab2f72bd5686e1e1e759a9f3703536d7fb1e18/EN_CHERRY_MX_RED.pdf
 $ENDCMP
